@@ -49,8 +49,8 @@ cmake_ninja_workdir = /home/iblochko/CLionProjects/ftpclient/cmake-build-debug/
 
 build cmake_object_order_depends_target_ftpclient: phony || .
 
-build CMakeFiles/ftpclient.dir/client.c.o: C_COMPILER__ftpclient_unscanned_Debug /home/iblochko/CLionProjects/ftpclient/client.c || cmake_object_order_depends_target_ftpclient
-  DEP_FILE = CMakeFiles/ftpclient.dir/client.c.o.d
+build CMakeFiles/ftpclient.dir/ftp_client.c.o: C_COMPILER__ftpclient_unscanned_Debug /home/iblochko/CLionProjects/ftpclient/ftp_client.c || cmake_object_order_depends_target_ftpclient
+  DEP_FILE = CMakeFiles/ftpclient.dir/ftp_client.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/ftpclient.dir
   OBJECT_FILE_DIR = CMakeFiles/ftpclient.dir
@@ -63,7 +63,7 @@ build CMakeFiles/ftpclient.dir/client.c.o: C_COMPILER__ftpclient_unscanned_Debug
 #############################################
 # Link the executable ftpclient
 
-build ftpclient: C_EXECUTABLE_LINKER__ftpclient_Debug CMakeFiles/ftpclient.dir/client.c.o
+build ftpclient: C_EXECUTABLE_LINKER__ftpclient_Debug CMakeFiles/ftpclient.dir/ftp_client.c.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/ftpclient.dir
   POST_BUILD = :
